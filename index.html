@@ -26,37 +26,7 @@
     
     <!-- Main CSS -->
     <link rel="stylesheet" href="assets/css/main.css">
- <style>
-     .book-link {
-  text-decoration: none;
-  display: block;
-}
 
-.book-section {
-  border: 2px solid red;
-  color: red;
-  padding: 30px;
-  text-align: center;
-  border-radius: 10px;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: sans-serif;
-  width: fit-content;
-  margin: 100px auto;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.book-section:hover {
-  background-color: red;
-  color: white;
-}
-
-
-
-  
-
- </style>
 </head>
 <body>
     <!-- Preloader -->
@@ -205,11 +175,29 @@
         </div>
     </section>
 
-    <a href="appointment.html">
-    <div class="book-consultation">
+     <!-- book Section -->
+    <a href="appointment.html" style="text-decoration: none; display: block;">
+    <section style="
+      border: 2px solid red;
+      color: red;
+      padding: 30px;
+      text-align: center;
+      border-radius: 10px;
+      font-size: 24px;
+      font-weight: bold;
+      font-family: sans-serif;
+      width: fit-content;
+      margin: 100px auto;
+      transition: all 0.3s ease;
+      cursor: pointer;
+    "
+      onmouseover="this.style.backgroundColor='red'; this.style.color='white';"
+      onmouseout="this.style.backgroundColor=''; this.style.color='red';"
+    >
       BOOK CONSULTATION
-    </div>
+    </section>
   </a>
+    
     <!-- Services Section -->
     <section class="services-section" id="services-section">
         <div class="container">
