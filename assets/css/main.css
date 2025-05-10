@@ -1229,24 +1229,30 @@ section {
     color: #007bff !important;
     text-transform: uppercase;
 }
-.book-consultation {
-      border: 2px solid red;
-      color: red;
-      padding: 20px;
-      text-align: center;
-      width: fit-content;
-      margin: 50px auto;
-      cursor: pointer;
-      border-radius: 8px;
-      font-family: Arial, sans-serif;
-      font-weight: bold;
-      transition: 0.3s ease;
-    }
+.book-link {
+  text-decoration: none;
+  display: block;
+}
 
-    .book-consultation:hover {
-      background-color: red;
-      color: white;
-    }
+.book-section {
+  border: 2px solid red;
+  color: red;
+  padding: 30px;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 24px;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: fit-content;
+  margin: 100px auto;
+  transition: all 0.3s ease;
+  cursor: pointer;
+}
+
+.book-section:hover {
+  background-color: red;
+  color: white;
+}
 
 
 
