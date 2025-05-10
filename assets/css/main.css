@@ -1229,31 +1229,3 @@ section {
     color: #007bff !important;
     text-transform: uppercase;
 }
-.book-link {
-  text-decoration: none;
-  display: block;
-}
-
-.book-section {
-  border: 2px solid red;
-  color: red;
-  padding: 30px;
-  text-align: center;
-  border-radius: 10px;
-  font-size: 24px;
-  font-weight: bold;
-  font-family: sans-serif;
-  width: fit-content;
-  margin: 100px auto;
-  transition: all 0.3s ease;
-  cursor: pointer;
-}
-
-.book-section:hover {
-  background-color: red;
-  color: white;
-}
-
-
-
-  
